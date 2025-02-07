@@ -1,0 +1,169 @@
+<!-- templates/knowledge.html -->
+{% extends "base.html" %}
+
+{% block title %}知识库管理{% endblock %}
+
+{% block body %}
+<div class="app-container">
+    <!-- 左侧导航栏 -->
+    <nav class="side-nav">
+        <div class="logo-section">
+            <img src="{{ url_for('static', filename='img/logo.png') }}" alt="生益科技" class="company-logo">
+            <h1 class="company-name">生益科技</h1>
+        </div>
+        <div class="nav-links">
+            <a href="{{ url_for('knowledge.index') }}" class="nav-item active">
+                <i class="fas fa-database"></i>
+                知识库管理
+            </a>
+            <a href="{{ url_for('chat.index') }}" class="nav-item">
+                <i class="fas fa-comments"></i>
+                智能问答
+            </a>
+        </div>
+    </nav>
+
+    <!-- 主内容区域 -->
+    <main class="main-content">
+        <div class="page-content">
+            <style>
+                .icon-btn {
+                    margin-right: 5px;
+                }
+                .category-badge {
+                    margin: 5px;
+                    padding: 5px 10px;
+                    background-color: #e9ecef;
+                    border-radius: 15px;
+                    display: inline-block;
+                    cursor: pointer;
+                }
+                .category-badge.active {
+                    background-color: #0d6efd;
+                    color: white;
+                }
+                .category-container {
+                    margin-bottom: 15px;
+                    padding: 10px;
+                    border: 1px solid #dee2e6;
+                    border-radius: 5px;
+                }
+                .card {
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                    margin-bottom: 20px;
+                }
+                .card-header {
+                    background-color: #f8f9fa;
+                    font-weight: 500;
+                }
+                .btn i {
+                    margin-right: 5px;
+                }
+            </style>
+
+            <!-- 引入Font Awesome图标库 -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fas fa-folder-plus"></i> 创建知识库分类
+                            </div>
+                            <div class="card-body">
+                                <form id="createCategoryForm">
+                                    <div class="mb-3">
+                                        <label for="categoryName" class="form-label">分类名称</label>
+                                        <input type="text" class="form-control" id="categoryName" required>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">
+                                        <i class="fas fa-plus"></i> 创建分类
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fas fa-database"></i> 创建知识库
+                            </div>
+                            <div class="card-body">
+                                <form id="createKnowledgeBaseForm">
+                                    <div class="mb-3">
+                                        <label for="categorySelect" class="form-label">选择分类</label>
+                                        <select class="form-select" id="categorySelect" required>
+                                            <option value="">请选择分类...</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="knowledgeBaseName" class="form-label">知识库名称</label>
+                                        <input type="text" class="form-control" id="knowledgeBaseName" required>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">
+                                        <i class="fas fa-plus-circle"></i> 创建
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-8">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fas fa-file-upload"></i> 文件上传
+                            </div>
+                            <div class="card-body">
+                                <div class="category-container">
+                                    <label class="form-label">知识库分类</label>
+                                    <div id="categoryList" class="mb-3">
+                                        <!-- 分类标签将通过JavaScript动态添加 -->
+                                    </div>
+                                </div>
+
+                                <form id="uploadForm">
+                                    <div class="mb-3">
+                                        <label for="knowledgeBaseSelect" class="form-label">选择知识库</label>
+                                        <select class="form-select" id="knowledgeBaseSelect" required>
+                                            <option value="">请选择知识库...</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="files" class="form-label">
+                                            <i class="fas fa-file-alt"></i> 选择文件
+                                        </label>
+                                        <input type="file" class="form-control" id="files" multiple required>
+                                        <div class="form-text">
+                                            <i class="fas fa-info-circle"></i> 支持的格式：PDF, Word, Excel, TXT, Markdown
+                                        </div>
+                                    </div>
+                                    <div class="progress mb-3 d-none" id="uploadProgress">
+                                        <div class="progress-bar" role="progressbar" style="width: 0%"></div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">
+                                        <i class="fas fa-upload"></i> 上传
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- 知识库信息卡片 -->
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fas fa-info-circle"></i> 知识库信息
+                            </div>
+                            <div id="knowledgeBaseInfo">
+                                <!-- 知识库信息将通过JavaScript动态添加 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/knowledge.js') }}"></script>
+{% endblock %}

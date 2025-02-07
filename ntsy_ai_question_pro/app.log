@@ -1,0 +1,145 @@
+2025-01-24 13:33:35,981 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 13:33:52,449 - numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+2025-01-24 13:33:54,727 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 13:33:54,728 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 13:33:55,402 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 13:33:55,446 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 13:33:55,447 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 13:33:55,447 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 13:33:55,512 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 13:34:16,852 - modules.file_processor - INFO - 开始批量处理文件: [WindowsPath('E:/devCode/python_code/ntsy_ai_question/data/uploads/2024年12月24日记录_导读.docx')]
+2025-01-24 13:34:16,855 - modules.file_processor - INFO - 正在处理文件: E:\devCode\python_code\ntsy_ai_question\data\uploads\2024年12月24日记录_导读.docx
+2025-01-24 13:34:16,909 - modules.vector_store - ERROR - Error creating collection EvanTest: [Errno 2] No such file or directory: 'E:\\devCode\\python_code\\ntsy_ai_question\\data\\vector_store\\EvanTest\\docstore.pkl'
+2025-01-24 13:34:16,911 - modules.vector_store - ERROR - Error adding documents to EvanTest: [Errno 2] No such file or directory: 'E:\\devCode\\python_code\\ntsy_ai_question\\data\\vector_store\\EvanTest\\docstore.pkl'
+2025-01-24 13:36:20,370 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 13:36:35,977 - numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+2025-01-24 13:36:38,815 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 13:36:38,816 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 13:36:39,812 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 13:36:39,876 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 13:36:39,879 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 13:36:39,880 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 13:36:40,011 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 13:39:39,376 - modules.file_processor - INFO - 开始批量处理文件: [WindowsPath('E:/devCode/python_code/ntsy_ai_question/data/uploads/2024年12月24日记录_导读.docx')]
+2025-01-24 13:39:39,377 - modules.file_processor - INFO - 正在处理文件: E:\devCode\python_code\ntsy_ai_question\data\uploads\2024年12月24日记录_导读.docx
+2025-01-24 13:39:39,439 - modules.vector_store - INFO - Creating new collection: EvanTest
+2025-01-24 13:39:39,452 - langchain_community.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-01-24 13:39:39,456 - modules.vector_store - INFO - Successfully saved FAISS store to E:\devCode\python_code\ntsy_ai_question\data\vector_store\EvanTest
+2025-01-24 13:39:40,426 - modules.vector_store - INFO - Added batch 1 to collection EvanTest
+2025-01-24 13:39:40,430 - modules.vector_store - INFO - Successfully saved FAISS store to E:\devCode\python_code\ntsy_ai_question\data\vector_store\EvanTest
+2025-01-24 13:39:40,430 - modules.vector_store - INFO - Successfully added 1 documents to EvanTest
+2025-01-24 13:45:41,828 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 13:45:49,437 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 13:50:46,838 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 13:51:02,746 - numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+2025-01-24 13:51:05,069 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 13:51:05,070 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 13:51:05,912 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 13:51:05,984 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 13:51:05,986 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 13:51:05,986 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 13:51:06,117 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 13:56:46,763 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 13:57:00,979 - numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+2025-01-24 13:57:02,454 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 13:57:02,454 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 13:57:03,058 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 13:57:03,106 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 13:57:03,107 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 13:57:03,109 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 13:57:03,184 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 13:57:43,955 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 13:57:59,714 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:04:37,341 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:04:53,862 - numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+2025-01-24 14:04:56,335 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:04:56,336 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 14:04:57,212 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 14:04:57,291 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:04:57,301 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:04:57,303 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 14:04:57,466 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 14:05:41,092 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:05:41,097 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:05:41,098 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 14:05:41,274 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 14:05:41,278 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:05:41,280 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:05:41,282 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 14:05:41,428 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 14:05:41,435 - langchain_community.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-01-24 14:05:41,436 - modules.vector_store - INFO - Successfully loaded FAISS store from E:\devCode\python_code\ntsy_ai_question\data\vector_store\EvanTest
+2025-01-24 14:06:01,481 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:08:35,173 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:09:03,518 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:11:38,223 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:18:37,080 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:18:54,094 - numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+2025-01-24 14:18:56,783 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:18:56,783 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 14:18:57,583 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 14:18:57,674 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:18:57,677 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:18:57,678 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 14:18:57,837 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 14:19:25,244 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:20:08,463 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:26:29,447 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:26:39,951 - numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+2025-01-24 14:26:41,234 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:26:41,235 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 14:26:41,792 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 14:26:41,844 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:26:41,847 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:26:41,848 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 14:26:41,915 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 14:26:50,119 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:27:52,484 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:32:54,732 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:33:27,349 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:34:44,153 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:36:46,005 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:37:01,027 - numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+2025-01-24 14:37:03,710 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:37:03,712 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 14:37:04,989 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 14:37:05,080 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:37:05,082 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:37:05,082 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 14:37:05,227 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 14:37:20,750 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:37:26,919 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:37:37,091 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:37:47,400 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:44:10,436 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:44:24,840 - numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+2025-01-24 14:44:27,988 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:44:27,993 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 14:44:29,075 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 14:44:29,154 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:44:29,156 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:44:29,156 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 14:44:29,300 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 14:44:45,267 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:45:04,844 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:45:38,374 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:46:21,748 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:46:37,518 - numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+2025-01-24 14:46:39,834 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:46:39,835 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 14:46:40,599 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 14:46:40,664 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:46:40,667 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:46:40,667 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 14:46:40,793 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 14:51:33,180 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:51:48,869 - numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+2025-01-24 14:51:51,089 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:51:51,090 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 14:51:51,865 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 14:51:51,940 - modules.vector_store - INFO - Loading model from: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:51:51,943 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese
+2025-01-24 14:51:51,950 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name E:\devCode\python_code\ntsy_ai_question\models\text2vec-base-chinese. Creating a new one with mean pooling.
+2025-01-24 14:51:52,096 - modules.vector_store - INFO - Vector store initialized successfully
+2025-01-24 14:52:10,648 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-24 14:52:23,813 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"

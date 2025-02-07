@@ -1,0 +1,14 @@
+knowledge_qa_system/
+├── config/
+│   └── config.py           # 配置文件
+├── modules/
+│   ├── file_processor.py   # 文件处理模块
+│   ├── vector_store.py     # 向量存储模块
+│   ├── llm_wrapper.py      # LLM封装模块
+│   └── function_manager.py # Function Calling管理模块
+├── ui/
+│   ├── knowledge_base.py   # 知识库管理界面
+│   └── qa_interface.py     # 问答界面
+├── utils/
+│   └── common_utils.py     # 通用工具函数
+└── main.py                 # 主程序入口
